@@ -1,0 +1,143 @@
+<Group Login_Name="{user}" Login_Pwd="{password}" OpKind="0" InterFaceID="" SerType="VFI">
+    <E_Time>{sendtime}</E_Time>
+    <Item>
+        <Task>
+            <Recive_Phone_Number>{phone}</Recive_Phone_Number>
+            <Content>![CDATA[{message}]]</Content>
+            <Search_ID>{serial}</Search_ID>
+        </Task>
+    </Item>
+</Group>
+
+# encoding=utf-8
+# 版权：上海岸登信息科技有限公司
+# ver1.0 2017-07-15
+
+import sys
+import os
+import uuid
+import requests
+import urlparse
+import re
+import hashlib
+import datetime
+import logging
+from smsplugin import *
+
+sys.path.append(os.path.join(os.path.dirname(__file__), "../"))
+logger = logging.getLogger(__name__)
+
+__all__ = ['VCOM']
+
+
+class VCOM(SMS):
+    '''
+    短信平台接口说明
+    ver 1.0
+    福建集时通短信
+    '''
+
+    name = 'vcom'
+    version = '1.0'
+    description = '集时通短信业务'
+
+    def __init__(self):
+        self.__url = None
+        self.__user = None
+        self.__pwd = None
+        self.__sign = None
+        self.__gid = None
+        self.__template = None
+        super(VCOM, self).__init__()
+
+    def set(self, url, user, pwd, sign, gid, template):
+        m = hashlib.md5()
+        m.update(pwd)
+        pwd = m.hexdigest()
+        print pwd
+        self.__url = url
+        self.__user = user
+        self.__pwd = pwd
+        self.__sign = sign
+        self.__gid = gid
+        self.__template = template
+
+    @staticmethod
+    def __send_msg_template(user='', password='', phone='', message='', sendtime='', serial=''):
+        if re.match(r'^1\d{10}$', phone):
+            return ''
+        if sendtime is '':
+            sendtime = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        if serial is '':
+            serial = str(uuid.uuid1())
+
+        xml_temp = """
+        <Group Login_Name="{user}" Login_Pwd="{password}" OpKind="0" InterFaceID="" SerType="VFI">
+            <E_Time>{sendtime}</E_Time>
+            <Item>
+                <Task>
+                    <Recive_Phone_Number>{phone}</Recive_Phone_Number>
+                    <Content>![CDATA[{message}]]</Content>
+                    <Search_ID>{serial}</Search_ID>
+                </Task>
+            </Item>
+        </Group>
+        """
+        return xml_temp.format(user=user, password=password, sendtime=sendtime, phone=phone, message=message, serial=serial)
+
+    @staticmethod
+    def __query_account_template(account=''):
+        if account is '':
+            return ''
+
+        xml_temp = """
+        <Root Service_Type="0">
+            <Item>
+                <Account_Name>{account}</Account_Name>
+            </Item>
+        </Root>
+        """
+        return xml_temp.format(account=account)
+
+    def sendSMS(self, phonenumber, content):
+        msg = self.__template.replace("@", content)
+        body = self.__send_msg_template(user=self.__user, password=self.pwd, phone=phonenumber, message=msg)
+        response = self.__Post('Opration.aspx', body)
+        if response.status_code == 200:
+            pass
+        else:
+            pass
+        return int(p['result']), p['desc']
+
+    def query(self):
+        body = self.__query_account_template(self.__user)
+        response = self.__Post('GetResult.aspx', body)
+        if response.status_code == 200:
+            pass
+        else:
+            pass
+        return int(p[0]), p[1]
+
+    def __Post(self, address, data):
+        url = urlparse.urljoin(self.__url, address)
+        response = requests.post(url, data)
+        return response
+
+if __name__ == '__main__':
+    url = 'http://userinterface.vcomcn.com'
+    user = 'FJSSSM'
+    pwd = 'LneCkcYh'
+<Root Service_Type="0">
+    <Item>
+        <Account_Name>{user}</Account_Name>
+    </Item>
+</Root>
+
+<Group>
+    <Result>
+        <Account_Name>test</Account_Name>
+        <InBalance>123</InBalance>
+        <Credit_Balance>123</Credit_Balance>
+        <Balance>123</Balance>
+    </Result>
+</Group>
