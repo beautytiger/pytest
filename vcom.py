@@ -1,3 +1,4 @@
+
 class VCOM(object):
 
     def __init__(self):
@@ -30,35 +31,34 @@ class VCOM(object):
         if serial is '':
             serial = str(uuid.uuid1()).replace('-', '')
 
-        xml_temp = \
-u"""<?xml version="1.0" encoding="UTF-8"?>
-<Group Login_Name="{user}" Login_Pwd="{password}" OpKind="0" InterFaceID="" SerType="VFI">
-<E_Time>{sendtime}</E_Time>
-<Item>
-<Task>
-<Recive_Phone_Number>{phone}</Recive_Phone_Number>
-<Content>![CDATA[{message}]]</Content>
-<Search_ID>12345</Search_ID>
-</Task>
-</Item>
-</Group>
-"""
+        xml_temp = u"""<?xml version="1.0" encoding="UTF-8"?>
+        <Group Login_Name="{user}" Login_Pwd="{password}" OpKind="0" InterFaceID="" SerType="VFI">
+            <E_Time>{sendtime}</E_Time>
+            <Item>
+                <Task>
+                    <Recive_Phone_Number>{phone}</Recive_Phone_Number>
+                    <Content>![CDATA[{message}]]</Content>
+                    <Search_ID>12345</Search_ID>
+                </Task>
+            </Item>
+        </Group>
+        """
+        xml_temp = xml_temp
         string = xml_temp.format(user=user, password=password, sendtime=sendtime, phone=phone, message=message)
-        return string.encode('utf8')
+        return string.encode('gbk')
 
     @staticmethod
     def __query_account_template(account=''):
         if account is '':
             return ''
 
-        xml_temp = \
-u"""<?xml version="1.0" encoding="UTF-8"?>
-<Root Service_Type="0">
-<Item>
-<Account_Name>{account}</Account_Name>
-</Item>
-</Root>
-"""
+        xml_temp = u"""<?xml version="1.0" encoding="UTF-8"?>
+        <Root Service_Type="0">
+            <Item>
+                <Account_Name>{account}</Account_Name>
+            </Item>
+        </Root>
+        """
         string = xml_temp.format(account=account)
         return string.encode('utf8')
 
@@ -93,3 +93,12 @@ u"""<?xml version="1.0" encoding="UTF-8"?>
         print response.text
         return response
 
+url = u'http://qdif.vcomcn.com'
+user = u'FJSSSM'
+account = u'fjsssm00'
+phone = u'15502111710'
+template = u'春庭聊纵望，楼台自相隐。@'
+ob = VCOM()
+ob.set(url, user, pwd, account, None, template)
+# q = ob.query()
+s = ob.sendSMS(phone, 'Hello')
