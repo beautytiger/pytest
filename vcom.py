@@ -1,4 +1,3 @@
-
 class VCOM(object):
 
     def __init__(self):
@@ -30,29 +29,27 @@ class VCOM(object):
         #     sendtime = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         if serial is '':
             serial = str(uuid.uuid1()).replace('-', '')
-
-        xml_temp = u"""<?xml version="1.0" encoding="UTF-8"?>
-        <Group Login_Name="{user}" Login_Pwd="{password}" OpKind="0" InterFaceID="" SerType="VFI">
+        xml_temp = u"""
+        <Group Login_Name="{user}" Login_Pwd="{password}" OpKind="0" InterFaceID="0" SerType="VFI">
             <E_Time>{sendtime}</E_Time>
             <Item>
                 <Task>
                     <Recive_Phone_Number>{phone}</Recive_Phone_Number>
-                    <Content>![CDATA[{message}]]</Content>
-                    <Search_ID>12345</Search_ID>
+                    <Content><![CDATA[{message}]]></Content>
+                    <Search_ID>{serial}</Search_ID>
                 </Task>
             </Item>
         </Group>
         """
         xml_temp = xml_temp
-        string = xml_temp.format(user=user, password=password, sendtime=sendtime, phone=phone, message=message)
+        string = xml_temp.format(user=user, password=password, sendtime=sendtime, phone=phone, message=message, serial=serial)
         return string.encode('gbk')
 
     @staticmethod
     def __query_account_template(account=''):
         if account is '':
             return ''
-
-        xml_temp = u"""<?xml version="1.0" encoding="UTF-8"?>
+        xml_temp = u"""
         <Root Service_Type="0">
             <Item>
                 <Account_Name>{account}</Account_Name>
@@ -60,7 +57,7 @@ class VCOM(object):
         </Root>
         """
         string = xml_temp.format(account=account)
-        return string.encode('utf8')
+        return string.encode('gbk')
 
     def sendSMS(self, phonenumber, content):
         msg = self.__template.replace("@", content)
@@ -87,18 +84,20 @@ class VCOM(object):
 
     def __Post(self, address, data):
         url = urlparse.urljoin(self.__url, address)
+        headers = {'content-type': 'application/x-www-form-urlencoded', 'Connection': 'close',}
+        # headers = {'Content-Type': 'text/html; charset=gbk', 'Connection': 'close',}
         print url
-        response = requests.post(url, data)
+        response = requests.post(url, data, headers=headers)
         print response.status_code
         print response.text
         return response
 
 url = u'http://qdif.vcomcn.com'
 user = u'FJSSSM'
-account = u'fjsssm00'
+# account = u'fjsssm00'
 phone = u'15502111710'
-template = u'春庭聊纵望，楼台自相隐。@'
+template = u'您的订单号：@。'
 ob = VCOM()
-ob.set(url, user, pwd, account, None, template)
-# q = ob.query()
-s = ob.sendSMS(phone, 'Hello')
+ob.set(url, user, pwd, None, None, template)
+q = ob.query()
+s = ob.sendSMS(phone, '123456')
