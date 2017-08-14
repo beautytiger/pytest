@@ -4,22 +4,19 @@ import requests
 import json
 from requests.auth import HTTPBasicAuth
 
-url1 = 'http://127.0.0.1:8000/service/parking/member/info?phone=15502111710'
-r1 = requests.get(url1, auth=('goodday', 'goodday'))
+url1 = 'http://sjjy.andoner.cn/services/parking/member/info?cardNo=9000000530&plateNo=京A9999'
+url1 = 'http://wx.yanlordcd.com/services/parking/member/info?cardNo=9000000530&plateNo=京A9999'
+r1 = requests.get(url1, auth=('wxmall', 'wxmall'))
 
-url2 = 'http://127.0.0.1:8000/service/parking/clearance'
+url2 = 'http://wx.yanlordcd.com/services/parking/clearance'
 datas = {
-    'coupons':[
-        {
-        'code':'CPI201708030121',
-        'fee': 1000
-    },
-        {
-        'code':'CPI201709050667',
-        'fee': 500
-    },
-    ],
-    'freeparking':500
+'cardNo':'8600104665',
+'plateNo':'川A111BQ',
+'freeparking':1800,
+'coupons':[{"code":"C150157784698","fee":1200}]
 }
 datas = json.dumps(datas)
-r2 = requests.post(url2, data=datas, auth=('goodday', 'goodday'))
+r2 = requests.post(url2, data=datas, auth=('wxmall', 'wxmall'))
+
+http://wx.yanlordcd.com/services/parking/member/info
+http://wx.yanlordcd.com/services/parking/clearance
