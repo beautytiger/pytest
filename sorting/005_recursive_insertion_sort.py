@@ -31,7 +31,6 @@ def recursive_insertion_sort2(li, index):
         return li
 
 
-# python -m sorting.selection_sort
 if __name__ == '__main__':
     from .randlist import random_list
     a = random_list(1, 100, 20)

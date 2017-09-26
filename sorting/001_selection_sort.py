@@ -22,7 +22,7 @@ def selection_sort2(target):
 
 # https://stackoverflow.com/questions/11536764/how-to-fix-attempted-relative-import-in-non-package-even-with-init-py
 # run this script below to kill exception of ValueError
-# python -m sorting.selection_sort
+# python -m sorting.001_selection_sort
 if __name__ == '__main__':
     from .randlist import random_list
     a = random_list(1, 100, 100)

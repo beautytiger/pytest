@@ -26,7 +26,7 @@ def recursive_bubble_sort2(target, index):
 
 
 # run this script below to kill exception of ValueError
-# python -m sorting.recursive_bubble_sort
+# python -m sorting.003_recursive_bubble_sort
 if __name__ == '__main__':
     from .randlist import random_list
     a = random_list(1, 100, 100)
