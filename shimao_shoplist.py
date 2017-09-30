@@ -8,7 +8,7 @@ stored = GiftCouponStoreList.objects.all()
 if stored:
     mall = stored[0].mall
 else:
-    mall = Mall.objects.filter(enabled=True, name__contain=u"济南")
+    mall = Mall.objects.filter(enabled=True, name__contains=u"济南")
     mall = mall[0]
 stored_code = {i.code for i in stored}
 
