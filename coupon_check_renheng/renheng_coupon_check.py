@@ -20,7 +20,8 @@ class DataBaseRecord(object):
         coupon_name) = rec_list
         self.create_date = datetime.datetime.strptime(create_date, "%Y-%m-%d %H:%M:%S.%f")
         self.modify_date = datetime.datetime.strptime(modify_date, "%Y-%m-%d %H:%M:%S.%f")
-        self.paytime = datetime.datetime.strptime(paytime, "%Y%m%d%H%M%S")
+        # self.paytime = datetime.datetime.strptime(paytime, "%Y%m%d%H%M%S")
+        self.paytime = paytime
         self.amount = float(amount)
         self.name = name.decode("utf8")
         self.refund = True if refund == "1" else False
