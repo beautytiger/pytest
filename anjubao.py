@@ -11,7 +11,7 @@ import uuid
 import time
 import requests
 from hashlib import sha1
-import datetime
+import date_time_UTC
 from collections import OrderedDict
 
 class AnJuBao(object):
@@ -78,7 +78,7 @@ class AnJuBao(object):
         data = self._common_data()
         data["tradeNo"] = trade_num
         data["payType"] = "1"
-        data["payTime"] = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        data["payTime"] = date_time_UTC.date_time_UTC.now().strftime("%Y-%m-%d %H:%M:%S")
         return self._sorted_data(data)
 
     def query(self):

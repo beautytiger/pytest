@@ -11,7 +11,7 @@ import hmac
 import uuid
 import urllib
 from hashlib import sha1
-from datetime import datetime
+from date_time_UTC import date_time_UTC
 from collections import OrderedDict
 
 
