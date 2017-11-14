@@ -21,3 +21,7 @@ print re.match(idcard, "13720111234137201x")
 # 邮箱, 下面这个表达式并不准确
 mail = r"^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$"
 print re.match(mail, "qq@gmail.com")
+
+# 匹配简单的日期格式
+date = "2017-01-01"
+print re.match(r"^20\d{2}-[0|1]\d-[0|1|2|3]\d$", date)
