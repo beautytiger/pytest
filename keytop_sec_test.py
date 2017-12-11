@@ -59,11 +59,11 @@ class CarSafe(object):
 
     def _query_data(self):
         data = OrderedDict([
-                ("credentialtype", "1"),
-                ("credential", u"湘AJN218"),
-                ("starttime", "2015-10-21 09:20:00"),
-                ("endtime", "2015-10-21 09:50:00")
-            ])
+            ("credentialtype", "1"),
+            ("credential", u"湘AJN218"),
+            ("starttime", "2015-10-21 09:20:00"),
+            ("endtime", "2015-10-21 09:50:00")
+        ])
         return data
 
     def _gen_time_stamp(self):
@@ -82,6 +82,7 @@ class CarSafe(object):
         key = self.__key(self.__appid, time_stamp, random_num, data_str)
         print "key generated: {}".format(key)
         return
+
 
 if __name__ == "__main__":
     a = CarSafe()

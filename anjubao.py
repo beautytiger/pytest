@@ -14,6 +14,7 @@ from hashlib import sha1
 import date_time_UTC
 from collections import OrderedDict
 
+
 class AnJuBao(object):
 
     def __init__(self, plate_no=u'粤J00001'):
@@ -31,7 +32,7 @@ class AnJuBao(object):
     def __key(self, ordered_data, command):
         concat_str = ''
         for k, v in ordered_data.iteritems():
-            concat_str += (k + '=' + v +'&')
+            concat_str += (k + '=' + v + '&')
         concat_str = urlparse.urljoin(self.__url, command) + '?' + concat_str[:-1]
         print 'concat string:{}'.format(concat_str.encode('utf8'))
         sec_key = self.__secret.encode('utf8')
@@ -45,7 +46,7 @@ class AnJuBao(object):
 
     @staticmethod
     def _gen_order_num():
-        return 'AJB000' + str(int(time.time()*1000)) + '{:03}'.format(random.randint(0, 999))
+        return 'AJB000' + str(int(time.time() * 1000)) + '{:03}'.format(random.randint(0, 999))
 
     def _common_data(self):
         data = dict([

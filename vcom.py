@@ -42,7 +42,8 @@ class VCOM(object):
         </Group>
         """
         xml_temp = xml_temp
-        string = xml_temp.format(user=user, password=password, sendtime=sendtime, phone=phone, message=message, serial=serial)
+        string = xml_temp.format(user=user, password=password, sendtime=sendtime, phone=phone, message=message,
+                                 serial=serial)
         return string.encode('gbk')
 
     @staticmethod
@@ -84,13 +85,14 @@ class VCOM(object):
 
     def __Post(self, address, data):
         url = urlparse.urljoin(self.__url, address)
-        headers = {'content-type': 'application/x-www-form-urlencoded', 'Connection': 'close',}
+        headers = {'content-type': 'application/x-www-form-urlencoded', 'Connection': 'close', }
         # headers = {'Content-Type': 'text/html; charset=gbk', 'Connection': 'close',}
         print url
         response = requests.post(url, data, headers=headers)
         print response.status_code
         print response.text
         return response
+
 
 url = u'http://qdif.vcomcn.com'
 user = u'FJSSSM'

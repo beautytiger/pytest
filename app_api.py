@@ -3,7 +3,6 @@
 import requests
 import json
 
-
 login_url = "http://sm.andoner.cn/services/app/getuid"
 coupon_url = "http://sm.andoner.cn/services/coupon/queryanduse"
 

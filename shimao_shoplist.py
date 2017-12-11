@@ -1,8 +1,10 @@
 # -*- coding: utf8 -*-
 
 import os
+
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "wxmall.settings")
 import django
+
 if django.VERSION >= (1, 7):
     django.setup()
 

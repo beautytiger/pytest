@@ -5,6 +5,7 @@ import os
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "wxmall.settings")
 
 import django
+
 django.setup()
 
 from parking.models import ParkingRecord

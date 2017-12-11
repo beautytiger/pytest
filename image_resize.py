@@ -7,8 +7,9 @@ from PIL import Image
 START_PATH = '/home/ethan/1'
 MODE = {'jpg': 'JPEG',
         'jpeg': 'JPEG',
-        'png':'PNG',
+        'png': 'PNG',
         }
+
 
 def gen_file_path(path=START_PATH):
     for f in os.listdir(path):
@@ -18,6 +19,7 @@ def gen_file_path(path=START_PATH):
         else:
             for subf in gen_file_path(path=file_path):
                 yield subf
+
 
 def resize_img(img):
     size = 1000, 1000
@@ -34,11 +36,13 @@ def resize_img(img):
             return True
     return False
 
+
 def run():
     for image in gen_file_path():
         if resize_img(image):
             print image
     return
+
 
 if __name__ == "__main__":
     run()

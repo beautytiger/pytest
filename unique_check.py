@@ -11,7 +11,7 @@ with open(csv_path) as f:
         codes.append(a[1].strip().decode('utf8'))
 
 for index, code in enumerate(codes):
-    if code in set(codes[index+1:]):
-        print "{:03d}: {}".format(index+1, code)
+    if code in set(codes[index + 1:]):
+        print "{:03d}: {}".format(index + 1, code)
 
 print "Done!"

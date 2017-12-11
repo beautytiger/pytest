@@ -34,7 +34,7 @@ def main():
     inputs = [10 for i in range(100)]
     start = time.time()
     total_successes = pool.map(func, inputs)  # Returns a list of lists
-    duration = time.time()-start
+    duration = time.time() - start
     print duration
     print total_successes
     flatten = []
