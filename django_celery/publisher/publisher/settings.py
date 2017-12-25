@@ -126,9 +126,24 @@ STATIC_URL = '/static/'
 # Email related settings
 
 # EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.exmail.qq.com'
-EMAIL_PORT = 465
-EMAIL_USE_SSL = True
-EMAIL_HOST_USER = '@@@@@@@'
-EMAIL_HOST_PASSWORD = '@@@@@@@@'
+# QQ email
+# EMAIL_HOST = 'smtp.exmail.qq.com'
+# EMAIL_PORT = 465
+# EMAIL_USE_SSL = True
+# EMAIL_HOST_USER = '@@@'
+# EMAIL_HOST_PASSWORD = '@@@'
+# DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+# 126
+EMAIL_HOST = 'smtp.126.com'
+EMAIL_PORT = 25
+EMAIL_HOST_USER = 'keytesting@126.com'
+# authorization code, not login password.
+EMAIL_HOST_PASSWORD = '@@@'
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+
+# REDIS related settings
+REDIS_HOST = 'localhost'
+REDIS_PORT = '6379'
+BROKER_URL = 'redis://' + REDIS_HOST + ':' + REDIS_PORT + '/0'
+BROKER_TRANSPORT_OPTIONS = {'visibility_timeout': 3600}
+CELERY_RESULT_BACKEND = 'redis://' + REDIS_HOST + ':' + REDIS_PORT + '/0'
