@@ -2,13 +2,29 @@
 
 import logging
 import time
+import datetime
 
 from django.urls import reverse
 from django.core.mail import send_mail
 from django.contrib.auth import get_user_model
+
+from celery.schedules import crontab
 from publisher.celery_app import app
 from publisher.settings import EMAIL_HOST_USER
 
+# @app.on_after_configure.connect
+# def setup_periodic_tasks(sender, **kwargs):
+#     sender.add_periodic_task(60, send_email_at_times.s(), expires=5)
+#
+#     sender.add_periodic_task(
+#         crontab(hour=23, minute=25),
+#         send_email_at_times.s(),
+#     )
+#
+#     sender.add_periodic_task(
+#         crontab(hour=15, minute=25),
+#         send_email_at_times.s(),
+#     )
 
 @app.task
 def send_verification_email(user_id):
@@ -44,3 +60,15 @@ def send_deletion_warning_email(email):
     except Exception as e:
         logging.warning(e)
         logging.warning("Send notification email fail: %s" % email)
+
+@app.task
+def send_email_at_times(*args, **kwargs):
+    logging.warning("begin sending email...")
+    send_mail(
+        'Hello, dude!',
+        'This is a time alarm email, current is {}'.format(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")),
+        EMAIL_HOST_USER,
+        ['konmyn@163.com'],
+        fail_silently=False,
+    )
+    logging.warning("finish sending email.")

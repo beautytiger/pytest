@@ -147,3 +147,20 @@ REDIS_PORT = '6379'
 BROKER_URL = 'redis://' + REDIS_HOST + ':' + REDIS_PORT + '/0'
 BROKER_TRANSPORT_OPTIONS = {'visibility_timeout': 3600}
 CELERY_RESULT_BACKEND = 'redis://' + REDIS_HOST + ':' + REDIS_PORT + '/0'
+
+from celery.schedules import crontab
+
+CELERY_BEAT_SCHEDULE = {
+    # "send_email_at_times1": {
+    #     "task": "main.tasks.send_email_at_times",
+    #     "schedule": crontab(hour=23, minute=50),
+    # },
+    # "send_email_at_times2": {
+    #     "task": "main.tasks.send_email_at_times",
+    #     "schedule": crontab(hour=23, minute=50),
+    # },
+    "send_email_at_times3": {
+        "task": "main.tasks.send_email_at_times",
+        "schedule": crontab(),
+    }
+}
