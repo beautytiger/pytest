@@ -1,2 +1,7 @@
 root@test.com
 root@test
+
+# run async job
+redis-server
+# in virtualenv
+celery worker -A publisher --loglevel=debug --concurrency=4
