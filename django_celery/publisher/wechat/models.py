@@ -8,11 +8,6 @@ from django.db import models
 
 from wechat_status_code import WECHAT_STATUS_CODE as WSC
 
-# the url template to get wechat access token
-WECHAT_ACCESS_TOKEN_URL = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid={appid}&secret={appsecret}"
-# the margin to expire time to refresh access token
-EXPIRE_MARGIN = 60
-
 RESULT = namedtuple("RESULT", "code result message")
 
 
@@ -27,6 +22,13 @@ class CommonBaseModel(models.Model):
 
 
 class WeChatApp(CommonBaseModel):
+
+    # the url template to get wechat access token
+    # https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421140183
+    WECHAT_ACCESS_TOKEN_URL = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid={appid}&secret={appsecret}"
+    # the margin to expire time to refresh access token
+    EXPIRE_MARGIN = 60
+
     # wechat app basic
     title = models.CharField(max_length=32, verbose_name="wechat title")
     appid = models.CharField(max_length=64, null=False, db_index=True, unique=True, verbose_name="wechat appid")
@@ -50,14 +52,50 @@ class WeChatApp(CommonBaseModel):
 
     # get access token from wechat server
     def _fetch_access_token(self):
-        url = WECHAT_ACCESS_TOKEN_URL.format(appid=self.appid, appsecret=self.appsecret)
+        url = self.WECHAT_ACCESS_TOKEN_URL.format(appid=self.appid, appsecret=self.appsecret)
         response = requests.get(url)
         result = response.json()
         if "errcode" in result:
             return RESULT(result["errcode"], result["errmsg"], WSC.get(result["errcode"], u"未知错误"))
         else:
             self.expire_in = result["expires_in"]
-            self.expire_time = int(time.time()) + self.expire_in - EXPIRE_MARGIN
+            self.expire_time = int(time.time()) + self.expire_in - self.EXPIRE_MARGIN
             self.access_token = result['access_token']
             self.save()
             return RESULT(0, self.access_token, u"请求成功")
+
+
+class WeChator(CommonBaseModel):
+
+    # https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421140839
+    WECHAT_USER_INFO = "https://api.weixin.qq.com/cgi-bin/user/info?access_token={access_token}&openid={openid}&lang=zh_CN"
+
+    # the user using wechat
+    subscribe = models.BooleanField(verbose_name="is user subscribed the app")
+    appid = models.CharField(max_length=64, null=False, db_index=True, verbose_name="wechat appid")
+    openid = models.CharField(max_length=128, null=False, db_index=True, verbose_name="wechator openid")
+    nickname = models.CharField(max_length=128, default="", verbose_name="wechator nickname")
+    sex = models.SmallIntegerField(default=0, verbose_name="user gender. 1:male, 2:famale, 0:secret")
+    city = models.CharField(max_length=64, default="", verbose_name="wechator location city")
+    country = models.CharField(max_length=64, default="", verbose_name="wechator location, country")
+    province = models.CharField(max_length=64, default="", verbose_name="wechator location, province")
+    language = models.CharField(max_length=16, default="", verbose_name="user language")
+    headimgurl = models.TextField(default="", verbose_name="wechator head image url")
+    last_subscribe_time = models.IntegerField(default=0, verbose_name="wechator last subscribe time")
+    unionid = models.CharField(max_length=128, default="", db_index=True, verbose_name="union id for wechator")
+    app_remark = models.CharField(max_length=64, default="", verbose_name="app owner remark to wechator")
+    groupid = models.IntegerField(default=0, verbose_name="wechat group id")
+    tagid_list = models.TextField(default="", verbose_name="tag id to this user")
+
+    class Meta:
+        unique_together = (("appid", "openid"), )
+
+    @classmethod
+    def fetch_wechator_info(cls, appid, access_token, openid):
+        url = cls.WECHAT_USER_INFO.format(access_token=access_token, openid=openid)
+        response = requests.get(url)
+        result = response.json()
+        if "errcode" in result:
+            return RESULT(result["errcode"], result["errmsg"], WSC.get(result["errcode"], u"未知错误"))
+        else:
+            instance = cls.objects.create()
