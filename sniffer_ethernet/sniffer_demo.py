@@ -83,10 +83,12 @@ def ethernet_frame(data):
 
 # Return properly formatted MAC address (ie AA:BB:CC:DD:EE:FF)
 def get_mac_addr(bytes_addr):
-    # bytes_str = map('{:02x}'.format, bytes_addr)
-    # return ':'.join(bytes_str).upper()
-    bytes_str = b':'.join(["{:02X}".format(ord(i)) for i in bytes_addr])
-    return bytes_str.upper()
+    # print(isinstance(bytes_addr, str))
+    # print(isinstance(bytes_addr, bytes))
+    bytes_str = map('{:02x}'.format, bytes_addr)
+    return ':'.join(bytes_str).upper()
+    # bytes_str = b':'.join(["{:02X}".format(ord(i)) for i in bytes_addr])
+    # return bytes_str.upper()
 
 
 # Unpack IPv4 packet
