@@ -2,8 +2,7 @@ import requests
 import time
 
 
-code_map = {}
-SOURCE = 'DATA_000011'
+SOURCE = 'DATA_000005'
 
 
 def timefun(func):
@@ -24,10 +23,8 @@ def get_response_json(rep=None, **kwargs):
             'repCode': rep,
             }
     data.update(kwargs)
-    print(kwargs)
     response = requests.get(url=url, params=data)
     r = response.json()
-    print(r)
     return r
 
 
@@ -40,7 +37,6 @@ def post_response_json(rep=None, **kwargs):
     data.update(kwargs)
     response = requests.post(url=url, json=data)
     r = response.json()
-    print(r)
     return r
 
 
@@ -189,7 +185,6 @@ def main():
 
 
 if __name__ == '__main__':
-    import time
     start = time.time()
     main()
     dur = time.time() - start
