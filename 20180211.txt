@@ -1,0 +1,320 @@
+L10101	Louis Vuitton	L101 & L201 & L301	 Louis Vuitton 路易斯·威登	400-6588555	服饰	鞋包配饰	主力店		否				
+L10201	Dior&Dior Homme	L102-103 / L202-203	Dior &#038; Dior Homme 迪奥	400-1208771	服饰	鞋包配饰	主力店		否				
+L10401	Ermenegildo Zegna	L104 & L204	 Ermenegildo Zegna 杰尼亚	028-68900559	服饰	鞋包配饰	主力店		否				
+L10501	Dolce&Gabbana	L105 & L205	Dolce &#038; Gabbana 杜嘉班纳	028-86624401	服饰	鞋包配饰	主力店		是				
+L10601	Prada	 L106 & L206	 PRADA 普拉达	028-86655089	服饰	鞋包配饰	主力店		是				
+L10701	Salvatore Ferragamo	 L107 & L207	 Salvatore Ferragamo 菲拉格慕	028-84548891	服饰	鞋包配饰	主力店		否				
+L10801	Valentino	 L108 & L208	 Valentino	028-66320685 028-66320686	服饰	鞋包配饰	主力店		否				
+L10901	Emporio Armani	L109	Emporio Armani	028-68738492	服饰	鞋包配饰	主力店		是				
+L11001	Berluti	L110	Berluti	028-86586536	鞋包配饰	主力店			是				
+L11101	Loro Piana	L111	Loro Piana 诺悠翩雅Loro Piana 诺悠翩雅	028-86622640	服饰	鞋包配饰	主力店		否				
+L11201	Roger Vivier	 L112-113 & L213	 Roger Vivier 罗杰·维维亚	028-68738395	鞋包配饰	主力店			是				
+L11401	Moncler	 L114 & L214	 Moncler 蒙口	028-66330060	服饰	鞋包配饰	主力店		否				
+L11501	Max Mara	 L115 & L215	 Max Mara 麦克斯 马拉	028-86718897 028-86718815 028-86718873	服饰	鞋包配饰			是	/	/	9折	9折
+L11601	Tory Burch	L116	TORY BURCH 汤丽柏琦	028-64638868	服饰	鞋包配饰			否				
+L11701	A&F	L117 	Abercrombie &#038; Fitch 爱芙趣 	028-64656894	服饰	鞋包配饰			否				
+L11803	Nike Jordan	L118 & L216	AIR JORDAN 乔丹店	18121964610	运动用品	主力店			否				
+L119B01	COS	L119B	COS	028-81471020	服饰	鞋包配饰			否				
+L12002	VINOTEKA	L120	VINOTEKA 维诺卡红酒馆	028-86753708	餐饮美食				否				
+L12101	Paul&Shark	L121 	Paul &#038; Shark 保鲨 	028-86753708	服饰	鞋包配饰			否				
+L12201	Coach	L122	Coach 蔻驰	028-86748992	服饰	鞋包配饰			是				
+L12301	Loewe	L123	LOEWE 罗意威	028-68739677	鞋包配饰				是				
+L123A01	Kiton	L123A	Kiton 齐敦	028-86650838	服饰	鞋包配饰			是				
+L12402	MOYNAT	L124	MOYNAT	-	鞋包配饰				否				
+L12501	Balenciaga	L125	BALENCIAGA 巴黎世家	028-86620148	鞋包配饰				是				
+L12601	Givenchy	L126	GIVENCHY 纪梵希	028-68738455	服饰	鞋包配饰	主力店		否				
+L12701	Tom Ford	L127	TOM FORD	028-86758061	服饰	鞋包配饰	主力店		否				
+L12801	Bally	L128	Bally 巴丽	028-86755433	鞋包配饰	主力店			是				
+L12902	Autason	L129	Autason	028-86758955	服饰	鞋包配饰	主力店		否				
+L13003	Andrew Mackenzie	L130	Andrew Mackenzie 安德鲁·麦肯锡	028-66326722	服饰	鞋包配饰	主力店		是				
+L13101	Tod's	L131-132 & L231	Tod&#8217;s 托德斯	028-68738359	鞋包配饰	主力店			是				
+L13301	Bottega Veneta	 L133 & L232	 BOTTEGA VENETA 葆蝶家	028-62100428	鞋包配饰	主力店			是				
+L13401	Giorgio Armani	L134	Giorgio Armani	028-68738405	服饰	鞋包配饰			是				
+L14101	Burberry	 L141 & L241	 Burberry 博柏利	028-68907413	服饰	鞋包配饰			否				
+L14201	Celine	 L142 & L242	 Celine 思琳	028-86586558	鞋包配饰				否				
+L14301	Fendi	 L143-144 & L243-244	 Fendi 芬迪	028-61324175 028-61324176	服饰	鞋包配饰			是				
+L14501	Chanel	 L145-146 & L245-246	 Chanel 香奈儿	028-85320505	服饰	鞋包配饰	主力店		否				
+L14701	Marc Jacobs	L147	Marc Jacobs 莫杰	028-62434236	鞋包配饰				否				
+L14801	Dunhill	L148	Dunhill	028-66320662	服饰	鞋包配饰			否				
+L15002	BRUNELLO CUCINELLI	L150	BRUNELLO CUCINELLI	-	服饰	鞋包配饰			否				
+L15201	Christian Louboutin	L152	Christian Louboutin	028-68900268	鞋包配饰				否				
+L15301	Saint Laurent Paris	L153	Saint Laurent Paris	028-86789268 028-86780038	服饰	鞋包配饰			是				
+L161K01	Becca	L161K	Becca	028-82877800	餐饮美食				是	9.5折	9.5折	9折	8.5折
+L21201	Hogan	L212	HOGAN 霍根	028-68738397	鞋包配饰				是				
+L21901	I.T	 LG116-120	I.T	028-86623549	服饰	鞋包配饰			是				
+L22101	Kenzo	L221	Kenzo	028-86510113	服饰	鞋包配饰			是				
+L221A02	Shiatzy Chen	L221a	SHIATZY CHEN 夏姿·陈	028-87415418	服饰	鞋包配饰			是	9.2折	9.2折	9.2折	9折
+L22202	VERSUS	L222	VERSUS 纬尚时	028-86722962	服饰	鞋包配饰			否				
+L22302	Neil Barrett	L223	Neil Barrett	028-86586039	服饰	鞋包配饰			是	/	/	9.5折	9折
+L22401	Longchamp	L224	Longchamp 珑骧	028-66320629	服饰	鞋包配饰			是				
+L22502	Joseph	L225	Joseph 约瑟夫	028-86719976	服饰	鞋包配饰			否				
+L22602	Ports1961	L226 	Ports 1961 	028-86785127	服饰	鞋包配饰			是				
+L22902	MCM	 L229-230	 MCM 恩思恩	028-66320659	服饰	鞋包配饰			否				
+L24702	Giuseppe Zanotti	L247	Giuseppe Zanotti	028-86758710	鞋包配饰				是	9.5折	9.5折	9折	9折
+L24802	Alice+Olivia	L248	Alice+Olivia 爱丽丝+奥利维亚	-	服饰	鞋包配饰			是	/	/	9.5折	9.5折
+L24901	McQ	L249	McQMcQ	028-86623465	服饰	鞋包配饰			是				
+L25001	Moschino	L250	Moschino 莫斯奇诺	028-86758732	服饰	鞋包配饰			是	/	/	9折	9折
+L25101	Stuart Weitzman	L251	Stuart Weitzman	028-66320718	鞋包配饰				否				
+L25202	Philipp plein	L252	Philipp plein 菲利普普莱因	028-85269211	服饰	鞋包配饰			是				
+L261K01	Pasotti	L261K	Pasotti	-	家居礼品				否	9.5折	9.5折	9折	9折
+L262K02	Cesare Casadei	L262K	Cesare Casadei 西萨尔.卡萨帝	028-86734126	鞋包配饰				否				
+L30201	Lane Crawford	 L302-303 & L401	 Lane Crawford 连卡佛	028-68900010	服饰	鞋包配饰	家居礼品	主力店	是				
+L30401	Shiseido Salon&Spa	L304-304A	资生堂 SALON &#038; SPA	028-82879622	美容护理				是	造型8.5折	造型8.5折	"造型8.5折/SPA 会员价"	"造型8.5折/SPA 会员价"
+L30501	Chanel Beaute	L305	Chanel Beaute	028-85360505	美容护理				否				
+L30601	Roseonly	L306	roseonly	028-66327908	家居礼品				否				
+L30701	Dior Beauty	L307	Dior Beauty 克里斯汀·迪奥	028-86586205	美容护理				否				
+L30802	Vacheron Constantin	L308	Vacheron Constantin 江诗丹顿	028-62100864	珠宝钟表				否				
+L30901	Piaget	L309	Piaget 伯爵	028-62100864	珠宝钟表				否				
+L31001	Van Cleef & Arpels	L310	Van Cleef & Arpels	028-66320698	珠宝钟表				否				
+L31101	Bulgari	L311 	Bvlgari 宝格丽 	028-65079988	珠宝钟表				是				
+L31202	Rolex&Tudor	L312 	Rolex 劳力士 	028-86739259	珠宝钟表				否				
+L31401	Longines&Tag Heuer	L314	Longines&Tag Heuer	028-86519870	珠宝钟表				是				
+L31501	Jaeger-Lecoultre	L315	Jaeger-Lecoultre 积家	028-86624470	珠宝钟表				否				
+L31601	IWC	L316	IWC 万国	028-86711932	珠宝钟表				否				
+L31701	Tiffany&Co.	L317 	Tiffany &#038; Co. 蒂芙尼 	028-68907738	珠宝钟表				否				
+L31801	Audemars Piguet	L318	Audemars Piguet 爱彼	028-68739637	珠宝钟表				否				
+L31901	Chaumet	L319	ChaumetChaumet	028-86586261	珠宝钟表				否				
+L320A01	Hublot	L320a	Hublot 宇舶表	028-86737787	珠宝钟表				否				
+L320B01	Zenith	L320b	Zenith 真力时	028-86751189	珠宝钟表				否	/	/	9折	9折
+L32101	Swarovski	L321	Swarovski 施华洛世奇	028-61989757	珠宝钟表				否				
+L32201	Mikimoto	L322	Mikimoto	028-86758091	珠宝钟表				否				
+L32301	Qeelin	L323	Qeelin	028-66320638	珠宝钟表				是				
+L32401	Chopard	L324	Chopard 萧邦	028-86586290	珠宝钟表				否				
+L32501	Baume & Mercier	L325	Baume & Mercier	028-66320625	珠宝钟表				否				
+L32601	Breitling	L326	Breitling 百年灵	028-86650632	珠宝钟表				是				
+L32702	TASAKI	L327	Tasaki	028-61322339	珠宝钟表				否				
+L32801	Puyi Optical	L328	Puyi Optical 溥仪眼镜	028-86752373	鞋包配饰				是				
+L32901	Officine Panerai	L329	Officine Panerai 沛纳海	028-86624476	珠宝钟表				否				
+L331K01	GUCCI	L331K	GUCCI	-	珠宝钟表				否				
+L402A01	Mask	L402A	MASK	-	服饰	鞋包配饰			否				
+L402B01	it MiCHAA	L402B	it MICHAA	028-86674423	服饰	鞋包配饰			是	9折	9折	9折	8.5折
+L40302	V-Grass	L403	V-Grass	-	服饰	鞋包配饰			否				
+L40401	Ports	L404	PortsPorts	028-86749956	服饰	鞋包配饰			是				
+L40502	Miss Sixty	L405	Miss Sixty	028-86622491	服饰	鞋包配饰			是	9折	9折	9折	9折
+L406A01	Episode and Jessica	L406A	Episode and Jessica	-	服饰	鞋包配饰			否				
+L406B01	Darry Ring	L406B	Darry Ring	-	珠宝钟表				否				
+L40701	iBlues	L407	iBlues	028-86718830	服饰	鞋包配饰			是	/	/	9折	9折
+L40802	Magmode	L408	magmode 名堂	028-66327889	服饰	鞋包配饰			否				
+L40901	Red Valentino	L409	Red Valentino	028-86758739	服饰	鞋包配饰			是	/	/	9折	9折
+L41001	Max&Co.	L410 	MAX&#038;Co. 麦克斯寇 	028-86624419 028-86718870	服饰	鞋包配饰			是	/	/	9折	9折
+L411A01	VOV	L411a	VOV	-	服饰	鞋包配饰			否				
+L411B01	DiDier Dubot	L411b	Didier Dubot 迪迪爱都宝	028-65588845	鞋包配饰				是	/	/	9.5折	9折
+L41201	Alexandre Zouari	L412	Alexandre Zouari 亚历山大.施华利	028-68900299	鞋包配饰				否	9.5折	9.5折	9折	9折
+L413A01	LULU GUINNESS	L413a	Lulu Guinness	028-66327819	鞋包配饰				否				
+L413B01	Marisfrolg	L413b	Marisfrolg	028-62102513	服饰	鞋包配饰			是	/	/	9折	9折
+L41402	Aigle	L414	AIGLE 艾高	028-68900288	运动用品				否				
+L41502	Eve by Eve's	L415 	Eve by Eve&#8217;s 懿百 	-	服饰	鞋包配饰			是	9.5折	9.5折	9折	8.6折
+L416A01	J.Lindeberg	L416a	J.Lindeberg	028-62432808	服饰	鞋包配饰			是				
+L416B01	ARC	L416b 	Arc atelier 	028-66326926	服饰	鞋包配饰			否				
+L41702	Dazzle	L417L417	DAZZLE 地素	028-85570879	服饰	鞋包配饰			否				
+L41801	美心.翠园	L418-419	美心?翠园	028-68900286	餐饮美食				否				
+L42002	Nisiss	L420	nisiss 怡夕	15982251719	服饰	鞋包配饰			否				
+L42102	Edition 10	L421	Edition 10	-	服饰	鞋包配饰			否				
+L42202	Love Moschino	L422	LOVE MOSCHINO	028-86725010	服饰	鞋包配饰			是	/	/	9折	9折
+L42301	Club Monaco	L423	CLUB MONACO	028-86613979	服饰	鞋包配饰			是				
+L42402	ED Hardy	L424	Ed Hardy 爱德·哈迪	028-86615269	服饰	鞋包配饰			否				
+L42501	Koyo	L425	Koyo	028-86780080	服饰	鞋包配饰			否				
+L42703	Lottusse	L427	LOTTUSSE 乐途仕	028-86721146	鞋包配饰				否				
+L42801	TUMI	L428	TUMI	028-86612502	鞋包配饰				是				
+L431K02	ENZO	L431k	ENZO	028-64657070	珠宝钟表				否				
+L432K01	Apm Monaco	L432k	apm Monaco	028-82891199	鞋包配饰				是	9.5折	9.5折	9折	9折
+L434K02	Aimer Leurre	L434k	Aimer Leurre	-	鞋包配饰				否				
+L50101	Chocoolate&Aape	L501 	:CHOCOOLATE 	028-86586129	服饰	鞋包配饰			是				
+L50201	Basic House	L502	Basic House	028-86586165	服饰	鞋包配饰	主力店		否				
+L502A03	Samsonite Red	L502a 	Fly Juice 福来聚斯 	-	鞋包配饰				是				
+L50301	Uniqlo	 L503-504 & L603-604	 Uniqlo 优衣库	028-86743275	服饰	鞋包配饰	主力店		是				
+L50501	小南国	L505 	小南国 	028-68902877	餐饮美食				否	8.8折	8.8折	8.5折	8.5折
+L50602	Brioche Doree	L506	Brioche Doree 法味朵风	028-64861299	餐饮美食				否				
+L50701	MUJI无印良品	L507-508	MUJI 无印良品	028-65187171	服饰	鞋包配饰	家居礼品		否				
+L50902	LOHO	L509	LOHO 乐活眼镜生活	028-66326396	鞋包配饰				否				
+L51302	MLB	L513	MLB 棒球大联盟	-	运动用品				否				
+L514A01	FUO	L514a	FUO	028-65021669	鞋包配饰				否				
+L514B01	Rebecca	L514b	Rebecca 瑞贝卡	028-62493536	鞋包配饰				否				
+L515A02	Timberland	L515a	Timberland 添柏岚	028-68738420	运动用品				否				
+L51601	Taroko Bowling 大鲁阁	L516 	Taroko Bowling 大鲁阁 	028-84278168	休闲娱乐	主力店			否	"免费升级VIP包间或送冻柠茶一壶，充值3000元升级为大鲁阁钻石卡享5,5折优惠"	"免费升级VIP包间或送冻柠茶一壶，充值3000元升级为大鲁阁钻石卡享5,5折优惠"	"免费升级VIP包间或送冻柠茶一壶，充值3000元升级为大鲁阁钻石卡享5,5折优惠"	"免费升级VIP包间或送冻柠茶一壶，充值3000元升级为大鲁阁钻石卡享5,5折优惠"
+L51701	the Simpsons	L517	the Simpsons	028-86941180	服饰	鞋包配饰			否				
+L51801	壹小馆	L518 	皇城老妈.壹小馆 	028-84451986	餐饮美食				否	8.8折	8.8折	8.8折	8.8折
+L51901	芽莊	L519-520	芽庄越式料理	028-65173939	餐饮美食				否				
+L52101	上井	L521 	上井精致料理 	028-86712469	餐饮美食				否	9.5折	9.5折	9折	9折
+L53102	Trendiano	L531	Trendiano	-	服饰	鞋包配饰			否				
+L53201	Vans	L532	VANS 万斯	028-86781322	运动用品				否	9.5折	9.5折	9折	9折
+L53302	Skechers	L533	SKECHERS 斯凯奇	18048734001	运动用品				否				
+L53402	Republic Of Gamers玩家国度	L534	ROG玩家国度 	028-86737537	休闲娱乐				否				
+L53502	Seven Modern	L535	Seven Modern 赛闻	028-86954053	服饰	鞋包配饰			否				
+L53601	H:Connect	L536	H:Connect	028-66320631	服饰	鞋包配饰			否				
+L53702	J.D.V	L537	J.D.V	028-86512262	服饰	鞋包配饰			否				
+L53801	New Balance	L538	New Balance	18328757930	运动用品				否				
+L53902	Long Clothing	L539	Long Clothing	028-68739251	服饰	鞋包配饰			否	9.5折	9.5折	9折	9折
+L54001	iiJin	L540	iiJin 艾今	028-68739279	鞋包配饰				否	9.5折	9.5折	9折	9折
+L54101	G2000	L541	G2000	028-86586262	服饰	鞋包配饰			否				
+L54201	Avenue 1218	L542	AVENUE 1218	028-86623485	服饰	鞋包配饰			否				
+L54301	Optical 88	 L543b	 眼镜88	028-86748503	鞋包配饰				是	9.5折	9.5折	9折	8.5折
+L543A01	City Chain	L543a	City Chain 时间廊	028-86745509	珠宝钟表				否				
+L54402	Onitsuka Tiger	L544	Onitsuka Tiger 鬼冢虎	028-86730949	运动用品				否				
+L54502	DEBRAND	L545	DEBRAND	028-61322145	服饰	鞋包配饰			否				
+L54601	Stayreal	L546	STAYREAL	028-86586033	服饰	鞋包配饰			否				
+L551K01	Carolee	L551k	CAROLEE 卡洛里	028-66320710	珠宝钟表				否				
+L553K03	Garmin	L553K	Garmin	-	珠宝钟表				否				
+L554K02	FJALL RAVEN	L554k	FJALL RAVEN 北极狐	028-86942489	鞋包配饰				否				
+L555K02	iGe	L555k	iGeiGe	-	影音电器				否				
+L556K01	木九十	L556k 	木九十 	18030749367	鞋包配饰				否				
+L557K02	Aape/baby milo	L557K	Aape/baby milo	-	鞋包配饰				否				
+L558K02	Reemoor	L558k	reemoor	13755073992	鞋包配饰				否				
+L559K01	LITTLE BASTARD	L559k	Little Bastard 小牲口	13452333337	鞋包配饰				否				
+L560K02	Cherry Chau	L560K	Cherry Chau	18583730721	鞋包配饰				否				
+L60501	俏江南	L605 	俏江南 	028-66320688	餐饮美食				是	/	/	8.8折	8.8折
+L60602	天后站清汤腩	L606	天后站清汤腩	-	餐饮美食				否				
+L60701	金牌外婆家	L607 	金牌外婆家 	028-86586115	餐饮美食				否				
+L60801	IL Colpo 依格宝	L608-609	IL Colpo 依格宝美发	028-64661368	美容护理				否	洗剪吹9折	洗剪吹9折	洗剪吹9折	洗剪吹9折
+L61001	Physical 舒适堡	L610 	舒适堡健身瑜伽 	028-83383386	休闲娱乐				否				
+L611A02	Moleskine	L611a	Moleskine 魔力斯奇那	-	家居礼品				否				
+L611B01	LAMY	L611b	LAMY 凌美	028-66320709	家居礼品				是	9.5折	9.5折	9.5折	9.5折
+L61202	meitu	L612	meitu 美图	-	影音电器				否				
+L613A01	万仟堂	L613a	万仟堂	028-86711797	家居礼品				否				
+L613B01	Aojo	L613b	aojo	028-86923981	鞋包配饰				否				
+L61401	UA IMAX	L614	UA IMAX	028-86666941	休闲娱乐	主力店			否				
+L61501	Starbucks Coffee 星巴克	L615 	STARBUCKS 星巴克咖啡 	028-86758932	餐饮美食				否				
+L61601	三號院	L616 	三號院精致川菜 	028-86620432	餐饮美食				是	9折	9折	8.8折	8.8折
+L61702	祖母的厨房	L617 	祖母的厨房 	028-86698918	餐饮美食				否				
+L61802	姜虎东白丁	L618 	姜虎东白丁 	028-61678678	餐饮美食				否				
+L621A02	Blue Mountain	L621a	Blue Mountain	028-66312330	鞋包配饰	Y+青年空间			否				
+L621B02	Fresh	L621b	fresh 新鮮果汁	-	餐饮美食	Y+青年空间			否				
+L621C02	HAPPY TOGETHER	L621c	Happy Together	-	鞋包配饰	Y+青年空间			否				
+L621D01	ZEN TEA FE	L621d	ZEN 茶&#8217;fe	028-66312566	餐饮美食	Y+青年空间			否				
+L621E01	Vampire Ice Cream	L621e	超自然冰淇淋	-	餐饮美食	Y+青年空间			否				
+L622A01	MOYOU LONDON	L622a 	MOYOU 	028-86586915	美容护理	Y+青年空间			否				
+L622B01	四云奶盖贡茶	L622b 	GONG CHA 四云奶盖贡茶 	028-86738506	餐饮美食	Y+青年空间			是	9折	9折	9折	9折
+L622C01	Dough Collection	L622c	Dough Collection 面团出品	028-66312966	餐饮美食	Y+青年空间			是	9.5折	9.5折	9折	8.5折
+L62301	Aagaric Garden	L623 	Agaric Garden 艾格瑞 	13548049702	家居礼品	Y+青年空间			否				
+L62401	WAKEUP	L624	WAKEUP	028-66312558	美容护理	Y+青年空间			否				
+L625A02	AMF	L625a	AMF 海水生态鱼缸	028-86720932	家居礼品	Y+青年空间			否				
+L625B02	Happy Lemon	L625b	Happy Lemon 快乐柠檬	028-86949843	餐饮美食	Y+青年空间			否	单杯满10元减1元	单杯满10元减1元	单杯满10元减1元	单杯满10元减1元
+L62602	IPCONCEPT	L626 	IP CONCEPT 	028-66310855	家居礼品	Y+青年空间			否				
+L627A01	Paper Republic	L627a	Paper Republic 纸品共和	028-66312528	家居礼品	Y+青年空间			否				
+L627B01	Natural Garden	L627b	秋浦·沙拉果汁	028-86947925	餐饮美食	Y+青年空间			否				
+L628A01	蚂蚁揸	L628a 	蚂蚁揸 	028-61067662	餐饮美食	Y+青年空间			否				
+L628B01	Popits	L628b	POPITS	-	鞋包配饰	Y+青年空间			否				
+L62902	Liberty GO	L629	Liberty GO 潮飞流	-	影音电器				否				
+L630A01	SONOS	L630a	SONOS 搜诺思	028-66326386	影音电器				否				
+L630B01	Microsoft	L630b	Microsoft 微软	028-66323568	影音电器				否				
+L63101	DCHAV	L631	DCHAV 大昌影音	028-86629289	影音电器				是				
+L632A01	OTO	L632a	OTO	13541110347	美容护理				否				
+L632B01	OSIM	L632b	OSIM 傲胜	028-86653028	美容护理				是	9折	9折	9折	9折
+L633A02	Miele	L633A	Miele	-	影音电器				否				
+L633B02	Intelligera	L633b	Intelligera	-	影音电器				否				
+L63401	Bose	L634	Bose 博士	028-68738477	影音电器				否				
+L642K02	IQ Air AURA	L642k 	IQAir AURA 	-	美容护理				否				
+L643K01	Dyson	L643k	Dyson 戴森	15202899785	影音电器				是				
+L644K02	breo	L644k	breo 倍轻松	13679059509	美容护理				是				
+L646K02	甘兔庵	L646k 	甘兎庵 	028-82891159	餐饮美食				否	9.5折	9.5折	9折	8.8折
+L647K01	Sens De La Vie	L647k	Sens De La Vie 感觉生活	-	影音电器				否				
+L652K01	STARKOO	L652k	STARKOO 星汇堂	023-67986522	鞋包配饰	Y+青年空间			否				
+L653K01	NOARTER	L653K	NOARTER	-	家居礼品	Y+青年空间			否				
+L654K01	FACE FACE	L654k	Face Face 菲丝家	86-10-86460861	美容护理	Y+青年空间			否				
+L655K01	bananaunder	L655k 	Banana Under 	-	家居礼品	Y+青年空间			否				
+L658K01	OH!YA!	L658k	OH!YA!	-	儿童用品	Y+青年空间			否				
+L659K01	Cuneiform	L659k	CUNEIFORM 契意坊	-	家居礼品	Y+青年空间			否				
+L660K01	Miss Color	L660kL660k	Miss Color 蜜丝卡伦美甲美睫	028-61999582	美容护理	Y+青年空间			否				
+L661K01	GELATO DI NATURA	L661kL661k	帝娜朵拉意大利手工冰淇淋	-	餐饮美食	Y+青年空间			否				
+L662K01	SUUNTO	L662K	SUUNTO	-	珠宝钟表				否				
+L70103	三行一素	L701 	三行壹素 	-	餐饮美食				是	9折	9折	8.8折	8.8折
+L70201	花里	L702 	花里新馆 	028-86622248	餐饮美食				否	9.5折	9.5折	9折	9折
+L70301	暹罗泰	L703 	暹罗泰 	028-66320667	餐饮美食				否	9.5折	9.5折	9折	9折
+L70402	速度披萨	L704 	速度披萨 	"028-86762213"	餐饮美食				否	会员生日当天赠送意面一份	会员生日当天赠送意面一份	会员生日当天赠送意面一份	会员生日当天赠送意面一份
+L70502	半山小馆	L705 	半山小馆 	-	餐饮美食				否	9.5折	9.5折	9折	9折
+L70702	烤匠	L707 	烤匠 豆花烤鱼 	-	餐饮美食				否				
+L70802	森仔记	L708 	森仔記 	028-66320657	餐饮美食				否				
+LG10101	H&M	LG101-102 & LG201	H&#038;M 海恩斯莫里斯	028-81471359	服饰	鞋包配饰	主力店		否				
+LG10301	Monki	LG103	Monki	028-81471675	服饰	鞋包配饰			否				
+LG104A02	Nature Republic	LG104a	Nature Republic 自然乐园	028-86941180	美容护理				否				
+LG104B02	Puma	LG104b	PUMA 彪马	18180480656	运动用品				否				
+LG10502	Banila co.	LG105	Banila co.	028-82891182	美容护理				否	/	/	9折	9折
+LG10602	Innisfree	LG106	Innisfree	028-82891181	美容护理				否				
+LG10702	Under Armour	LG107	Under Armour 安德玛	028-66327857	运动用品				否				
+LG10802	南小馆	LG108	南小馆	028-68510188	餐饮美食				否				
+LG109A01	元氣	LG109a 	元気寿司 	028-86586801	餐饮美食				否				
+LG109B01	一風堂	LG109b 	一風堂 	028-86586382	餐饮美食				否				
+LG11001	SEPHORA	LG110	SEPHORA	028-86624478	美容护理				否				
+LG11301	Luk Fook 六福珠宝	LG113	Luk Fook 六福珠宝	028-866623426	珠宝钟表				否				
+LG114A01	Chow Sang Sang 周生生	LG114A	Chow Sang Sang 周生生	028-68739271	珠宝钟表				是				
+LG114B01	Chow Tai Fook 周大福	LG114B	Chow Tai Fook 周大福	028-86625735	珠宝钟表				否				
+LG11502	Kiehl's	LG115 	Kiehl&#8217;s 科颜氏 	028-61303590	美容护理				否				
+LG11601	i.t	 LG116-120	 i.t	028-86624479 028-86624419	服饰	鞋包配饰			是				
+LG121B02	Yuyuto 悠游堂	LG121b 	Yuyuto 悠游堂 	028-82891236	休闲娱乐				否				
+LG12201	Starbucks Coffee 星巴克	LG122 	STARBUCKS 星巴克咖啡 	028-86758152	餐饮美食				否				
+LG12301	GODIVA	LG123	GODIVA 歌帝梵	028-86586731	餐饮美食				否				
+LG123A01	Haagen Dazs	LG123a 	H?agen-Dazs 哈根达斯 	028-86586807	餐饮美食				否				
+LG12401	Food Republic 大食代	LG124 	大食代 	028-66320682	餐饮美食				否	9.5折	9.5折	9折	9折
+LG12501	ECCO	LG125	ECCO 爱步	028-86750839	鞋包配饰				否				
+LG12603	eGG	LG126 	eGG star 	028-87738219	鞋包配饰				否				
+LG127A01	Stradivarius	LG127A	Stradivarius	028-66320641	服饰	鞋包配饰			否				
+LG127B01	Bershka	LG127B	Bershka	028-66320650	服饰	鞋包配饰			否				
+LG128A01	Massimo Dutti	LG128A	Massimo Dutti	028-66320640	服饰	鞋包配饰			否				
+LG128B01	5cm	LG128B	5cm	028-86624485	服饰	鞋包配饰			是				
+LG12902	Asics	" LG129, 130a, 130b"	 ASICS 艾斯克斯	028-86785055	运动用品				否				
+LG13101	Jeeves	LG131	JEEVES 洁服斯宝	028-86661177	美容护理				是	9.5折	9.5折	9折	9折
+LG14101	W.S	 LG141-142 & LG231-232	 W.S 瓦斯	028-62434551	运动用品	儿童用品	主力店		否	9.5折	9.5折	9折	9折
+LG14301	Folder	 LG143 & LG223	 Folder	18328757936	运动用品	主力店			否				
+LG14401	Nike	 LG144 & LG234	 Nike 耐克	028-86610651	运动用品	主力店			否				
+LG14501	Adidas	 LG145 & LG235	 Adidas 阿迪达斯	18190680491	运动用品	主力店			是	/	/	9-9.5折	9-9.5折
+LG146A01	REC	LG146a	REC 芮客	028-66326829	美容护理				否				
+LG146B01	MO&Co	LG146b 	Mo&#038;Co 摩安珂 	028-65142329	服饰	鞋包配饰			否				
+LG14701	Collect Point	LG147	Collect Point	028-68738458	服饰	鞋包配饰			否				
+LG14902	NATURALLY JOJO	LG149	NATURALLY JOJO	028-6632712	服饰	鞋包配饰			否				
+LG15001	M Dreams	LG150	M Dreams	028-66326933	鞋包配饰				否				
+LG15102	SLY	LG151	SLY	028-62101089	服饰	鞋包配饰			否				
+LG15201	Le Saunda	LG152	Le Saunda 莱尔斯丹	028-86651075	鞋包配饰				否	9折	9折	8.5折	8.5折
+LG15302	Joy&Peace	LG153 	Joy &#038; Peace 	028-86625628	鞋包配饰				否				
+LG15401	Moussy	LG154	MOUSSY	028-86719132	服饰	鞋包配饰			否				
+LG162K01	EA Accessories	LG162k	EA Accessories	028-86749593	珠宝钟表				否				
+LG163K01	Liberation	LG163k	Liberation	028-86727126	鞋包配饰				否				
+LG164K01	FOREO	LG164k	FOREO 斐珞尔	18681258177	美容护理				是	9折	9折	9折	9折
+LG165K03	Smiley	LG165k 	Smiley World 	028-66326896	鞋包配饰				否				
+LG166K01	Pony Effect	LG166K	Pony Effect	-	美容护理				否				
+LG20202	Petit Bateau	 LG202	 Petit Bateau 小帆船	028-84318661	儿童用品				是				
+LG20302	bebelux	LG203	Bebelux	028-66326708	儿童用品				否				
+LG20401	Nota Kids	LG204	Nota kids	028-68738408	儿童用品				是	9.5折	9.5折	9折	9折
+LG204A01	So Sweet By Hair Corner	LG204a	So Sweet by Hair Corner	028-68392800	美容护理				否				
+LG20501	Dolce & Gabbana Junior	LG205 	Dolce &#038; Gabbana Junior 杜嘉班纳 	028-88624460	儿童用品				是				
+LG20601	Armani Junior	LG206	Armani Junior 阿玛尼童装	028-81470809	儿童用品				否	9.5折	9.5折	9.5折	9折
+LG20701	Burberry Kids	 LG207-208	 Burberry Kids 博柏丽	028-68900237	儿童用品				否				
+LG20901	Ralph Lauren Kids	LG209 	Ralph Lauren Children 拉尔夫劳伦 	028-86586183	儿童用品				是				
+LG210A03	JS	LG210a	JS	028-86622435	儿童用品				是	9.5折	9.5折	9折	9折
+LG210B01	Candy Master 糖果大师	LG210b 	Candy Master 糖果大师 	028-86586206	餐饮美食				否	9折	9折	8.8折	8.8折
+LG211B02	Painting Tower	LG211b 	Painting Tower WE 	028-66319833	休闲娱乐				否				
+LG212A02	Monnalisa	LG212a	MONNALISA	17313207336	儿童用品				是				
+LG212B02	Juicy Couture Girls	LG212b	Juicy Couture Girls 橘滋	028-86728946	儿童用品				否				
+LG212C01	I Pinco Pallino	LG212c	I Pinco Pallino 苹蔻	028-66320632	儿童用品				是	9.5折	9.5折	9折	8.8折
+LG21302	Bonpoint	LG213	Bonpoint	028-86947613	儿童用品				否				
+LG214A01	Lollipop	LG214a 	Lollipop	028-86749611	儿童用品				是				
+LG214B02	Young Versace	LG214B	Young Versace范思哲童装  	-	儿童用品				否				
+LG215B02	Little Star	LG215b	Little Star	028-66320636	儿童用品				否	9折	9折	8.5折	8.5折
+LG215C03	Qtools	LG215c	QtoolsQtools	18980439558	儿童用品				否				
+LG21601	Kidsland	LG216	Kidsland 凯知乐	028-62434198	儿童用品				是				
+LG21702	Roberto Cavalli Junior	LG217	Roberto Cavalli Junior 罗伯图·卡维里	028-86718719	儿童用品				是	9.5折	9.5折	9折	9折
+LG21801	Mothercare	 LG218-219	 Mothercare	028-86623467	儿童用品				否				
+LG22001	ToysRus 玩具反斗城	LG220 	ToysRus 玩具反斗城 	028-66320674	儿童用品	主力店			否				
+LG220A01	Parsons Music 柏斯琴行	LG220a 	Parsons Music 柏斯琴行 	028-86956305	休闲娱乐				否				
+LG22101	满记甜品	LG221 	满记甜品 	028-81471524	餐饮美食				否				
+LG22302	言几又	LG223	言几又	-	家居礼品	餐饮美食	休闲生活	主力店	否				
+LG22401	金燕庄	LG224 	金燕庄 	028-86784933	餐饮美食				是	9折	9折	8.8折	8.8折
+LG22501	金翠河	LG225 	金翠河香港茶餐厅 	028-66320716	餐饮美食				否				
+LG23602	Nike Young Athletes	LG236 	Nike KIDS 	-	运动用品				是				
+LG23701	万宁/MANNINGS	LG237-238	Mannings 万宁	028-84554158	美容护理				否				
+LG239A01	位元堂	LG239a 	位元堂 	028-86711295	餐饮美食				是				
+LG239B02	Unicrys	LG239b	Unicrys 独角兽	13308047842	儿童用品				否				
+LG24002	Rookie	 LG240-241a	 ROOKIE	028-86914293	儿童用品				否				
+LG241B01	Hurom 惠人芳	LG241b 	惠人芳 	028-86758717	餐饮美食				是	"9折(限饮品)"	"9折(限饮品)"	"8.8折(限饮品)"	"8.8折(限饮品)"
+LG251K02	光之乳酪	LG251k 	光之乳酪 	-	餐饮美食				否				
+LG252K01	Miracle Magic 奇迹魔术	LG252k	奇迹魔术 	028-66325788	休闲娱乐				否				
+LG253K02	Le Creuset	LG253kLG253k	Le Creuset 法国酷彩	18782251112	影音电器				否	9.5折	9.5折	9折	9折
+LG254K02	Nespresso	LG254K	Nespresso	-	家居礼品				否				
+LG255K01	Mangosix	LG255k	MANGOSIX 芒果新世	028-66325788	餐饮美食				否	8折	8折	7.5折	7.5折
+LG256K01	Grosfairy 胖仙女	LG256k 	胖仙女 	-	餐饮美食				否				
+LG257K01	Hansa	LG257k 	ZOO LIFE 	13880252788	儿童用品				否				
+LG4-0101	美车堂	LG401	美车堂		美容护理				否				
+SR00101	Ice&Joy 冰悦滑冰场	LG222 	Ice &#038; Joy 冰悦滑冰场 	028-69399218 028-69399216	休闲娱乐	主力店			否				
+T2L10101	Greybox	T2L101 	GREYBOX COFFEE 	028-66311099	餐饮美食				否				
+T30101	Niccolo	T301	Niccolo	-	餐饮美食				否				
+T3L10101	Dsquared2	T3L101	Dsquared2	-	服饰	鞋包配饰			是	/	/	9折	9折
+T40101	Vera Wang	T4 101	 VERA WANG 王薇薇	028-86669861	服饰	鞋包配饰			否
