@@ -2,6 +2,7 @@
 
 import xml.etree.ElementTree as ET
 import requests
+from xml.dom.minidom import Document
 
 template = """
 <xml><appid><![CDATA[wx6713e3a589eddb88]]></appid>
@@ -23,7 +24,7 @@ template = """
 <transaction_id><![CDATA[4002002001201706115266090371]]></transaction_id>
 </xml>
 """
-#
+
 # root = ET.fromstring(template)
 #
 # print root
@@ -34,11 +35,28 @@ template = """
 #     print child.tag, child.attrib, child.text
 #     print list(child)
 #
-# print list(root)
+# print(list(root))
 
-url = "http://zd.andoner.cn/parking/th/pay/"
-headers = {'Content-Type': 'application/xml'}  # set what your server accepts
-res = requests.post(url, data=template, headers=headers)
+# url = "http://zd.andoner.cn/parking/th/pay/"
+# headers = {'Content-Type': 'application/xml'}  # set what your server accepts
+# res = requests.post(url, data=template, headers=headers)
 
-print res.status_code
-print res.content
+
+"""create simple xml data"""
+doc = Document()
+root = doc.createElement('xml')
+
+item = doc.createElement("hello")
+data = doc.createCDATASection("world")
+item.appendChild(data)
+root.appendChild(item)
+
+item = doc.createElement("hey")
+data = doc.createTextNode("world")
+item.appendChild(data)
+root.appendChild(item)
+
+root.appendChild(item)
+
+print(root.toxml())
+# <xml><hello><![CDATA[world]]></hello><hey>world</hey></xml>
