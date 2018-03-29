@@ -88,12 +88,39 @@ class MYSQLConn(object):
                 value.append(random.randint(0, self.max))
             self._engine.execute(sql, value)
 
+    @timer
+    def insert_numn_unindex(self, row_per_query=1000, total_query=1000):
+        """插入数据，每次row_per_query行, 共插入total_query次"""
+        sql_a = """
+            insert into random_num
+            (col_value)
+            values
+        """
+        sql_b = """
+            (%s),
+        """
+
+        sql_e = """
+            (%s)
+        """
+        sql = sql_a
+        for i in range(row_per_query-1):
+            sql += sql_b
+        sql += sql_e
+
+        for i in range(total_query):
+            value = list()
+            for j in range(row_per_query):
+                value.append(random.randint(0, self.max))
+            self._engine.execute(sql, value)
+
 
 if __name__ == '__main__':
     conn = MYSQLConn()
     # conn.insert_num()  # about 100 queries per second
     # conn.insert_num2()  # about 100 queries per second
-    conn.insert_numn(1000, 1000)  # takes 14~17 second
-    conn.insert_numn(10000, 100)  # takes 12~24 second, time increase as row increase in database
+    # conn.insert_numn(1000, 1000)  # takes 14~17 second
+    # conn.insert_numn(10000, 100)  # takes 12~24 second, time increase as row increase in database
+    conn.insert_numn_unindex(1000, 1000)  # takes 11~12 sec
 
 
